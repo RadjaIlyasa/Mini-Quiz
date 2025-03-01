@@ -7,5 +7,5 @@ document.getElementById("start-btn").addEventListener("click", () => {
     }
 
     localStorage.setItem("playerName", playerName); // Simpan nama pemain
-    window.location.href = "../index.html"; // Pindah ke halaman kuis
+    window.location.href = "game.html"; // Pindah ke halaman kuis
 });

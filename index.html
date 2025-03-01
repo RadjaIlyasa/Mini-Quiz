@@ -3,21 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Battle</title>
+    <title>Login - Quiz Battle</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="quiz-container">
-        <h1>Quiz Battle</h1>
-        <div id="question-container">
-            <p id="question-text"></p>
-            <div id="options"></div>
-        </div>
-        <p id="timer">Waktu: <span id="time-left">10</span> detik</p>
-        <p id="score">Skor: <span id="score-value">0</span></p>
-        <button id="next-btn">Soal Berikutnya</button>
+
+    <div id="start-screen">
+        <h1>Selamat Datang di Quiz Battle!</h1>
+        <label for="player-name">Masukkan Nama:</label>
+        <input type="text" id="player-name" placeholder="Nama Anda">
+        <button id="start-btn">Mulai</button>
     </div>
-    <script src="script.js"></script>
+
+    <script src="login.js"></script>
 </body>
 </html>
-
